@@ -167,7 +167,7 @@
 								{"name": "green"},
 								{"name": "pink"},
 								{"name": "blue"},
-								{"name": "red"}
+								{"name": "red"},
 								{"name": "pippo"}
 							],
 							"toolsDependencies":
@@ -194,8 +194,6 @@
 								}
 							]
                 },
-				
-				
 				{
                     "name":"what's next AVR_ESP Boards",
                     "architecture":"avr_esp",
