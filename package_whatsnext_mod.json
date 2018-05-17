@@ -1,0 +1,704 @@
+{
+    "packages":
+    [
+        {
+            "name":"whatsnext",
+            "maintainer":"What's next?",
+            "websiteURL":"http://whatsnext.shop",
+            "email":"rd@whatsnext.shop",
+            "help":{ "online":"http://whatsnext.shop" },
+            "platforms": 
+            [
+                {
+                    "name":"what's next AVR Boards",
+                    "architecture":"avr",
+                    "version":"1.0.0",
+                    "category":"whatsnext",
+                    "url":"http://download.whatsnext.shop/platforms/whatsnext_avr_platform.zip",
+                    "archiveFileName":"whatsnext_avr_platform.zip",
+                    "checksum":"SHA-256:6132632A80B2C0626CF2DF7516F63CBD036B13C3264E35CC03192A290116A770",
+                    "size":"6877519",
+                    "help":{ "online":"http://whatsnext.shop" },
+                    "boards":
+                    [
+                        {"name": "turquoise"},
+                        {"name": "yellow"},
+                        {"name": "purple"},
+                        {"name": "green"},
+                        {"name": "pink"},
+			            {"name": "blue"},
+			            {"name": "red"}
+                    ],
+                    "toolsDependencies":
+                    [
+                        {
+                            "packager": "arduino",
+                            "name": "avr-gcc",
+                            "version": "4.9.2-atmel3.5.4-arduino2"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "avrdude",
+                            "version": "6.3.0-arduino9"
+                        },
+                        {
+                            "packager": "whatsnext", 
+                            "version": "1.0.0", 
+                            "name": "redtool"
+                        }, 
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.1.1"
+                        }
+                    ]
+                },
+				{
+                    "name":"what's next AVR Boards",
+                    "architecture":"avr",
+                    "version":"1.0.1",
+                    "category":"whatsnext",
+                    "url":"http://download.whatsnext.shop/platforms/whatsnext_avr_platform_1.0.1.zip",
+                    "archiveFileName":"whatsnext_avr_platform_1.0.1.zip",
+                    "checksum":"SHA-256:C2F27FBDBA735DF8104A831652BA1A3155D8F3D009931BDCE7B6CD945B531F54",
+                    "size":"6833153",
+                    "help":{ "online":"http://whatsnext.shop" },
+                    "boards":
+                    [
+                        {"name": "turquoise"},
+                        {"name": "yellow"},
+                        {"name": "purple"},
+                        {"name": "green"},
+                        {"name": "pink"},
+			            {"name": "blue"},
+			            {"name": "red"}
+                    ],
+                    "toolsDependencies":
+                    [
+                        {
+                            "packager": "arduino",
+                            "name": "avr-gcc",
+                            "version": "4.9.2-atmel3.5.4-arduino2"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "avrdude",
+                            "version": "6.3.0-arduino9"
+                        },
+                        {
+                            "packager": "whatsnext", 
+                            "version": "1.0.0", 
+                            "name": "redtool"
+                        }, 
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.1.1"
+                        }
+                    ]
+                },
+				{
+                    "name":"what's next AVR Boards",
+                    "architecture":"avr",
+                    "version":"1.0.2",
+                    "category":"whatsnext",
+                    "url":"http://download.whatsnext.shop/platforms/whatsnext_avr_platform_1.0.2.zip",
+                    "archiveFileName":"whatsnext_avr_platform_1.0.2.zip",
+                    "checksum":"SHA-256:C5E31CB35745F52B0D1CF3683D2A157B9A2B5022C331E6E3C8D281D48C6D5A90",
+                    "size":"6833231",
+                    "help":{ "online":"http://whatsnext.shop" },
+                    "boards":
+                    [
+                        {"name": "turquoise"},
+                        {"name": "yellow"},
+                        {"name": "purple"},
+                        {"name": "green"},
+                        {"name": "pink"},
+			            {"name": "blue"},
+			            {"name": "red"}
+                    ],
+                    "toolsDependencies":
+                    [
+                        {
+                            "packager": "arduino",
+                            "name": "avr-gcc",
+                            "version": "4.9.2-atmel3.5.4-arduino2"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "avrdude",
+                            "version": "6.3.0-arduino9"
+                        },
+                        {
+                            "packager": "whatsnext", 
+                            "version": "1.0.0", 
+                            "name": "redtool"
+                        }, 
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.1.1"
+                        }
+                    ]
+                },
+				{
+					"name":"whatsnext",
+					"maintainer":"What's next?",
+					"websiteURL":"http://whatsnext.shop",
+					"email":"rd@whatsnext.shop",
+					"help":{ "online":"http://whatsnext.shop" },
+					"platforms": 
+					[
+						{
+							"name":"what's next AVR Boards",
+							"architecture":"avr",
+							"version":"1.0.3",
+							"category":"whatsnext",
+							"url":"https://github.com/andre03/prova/blob/master/prova_1.0.3.zip?raw=true",
+							"archiveFileName":"whatsnext_avr_platform.zip",
+							"checksum":"SHA-256:283F481468FCF0ABB6309382432782F103C3BCFCE2BDF01194CCEFDB981B4572",
+							"size":"6804120",
+							"help":{ "online":"http://whatsnext.shop" },
+							"boards":
+							[
+								{"name": "turquoise"},
+								{"name": "yellow"},
+								{"name": "purple"},
+								{"name": "green"},
+								{"name": "pink"},
+								{"name": "blue"},
+								{"name": "red"}
+								{"name": "pippo"}
+							],
+							"toolsDependencies":
+							[
+								{
+									"packager": "arduino",
+									"name": "avr-gcc",
+									"version": "4.9.2-atmel3.5.4-arduino2"
+								},
+								{
+									"packager": "arduino",
+									"name": "avrdude",
+									"version": "6.3.0-arduino9"
+								},
+								{
+									"packager": "whatsnext", 
+									"version": "1.0.0", 
+									"name": "redtool"
+								}, 
+								{
+									"packager": "arduino",
+									"name": "arduinoOTA",
+									"version": "1.1.1"
+								}
+							]
+                },
+				
+				
+				{
+                    "name":"what's next AVR_ESP Boards",
+                    "architecture":"avr_esp",
+                    "version":"1.0.0",
+                    "category":"whatsnext",
+                    "url":"https://bitbucket.org/chiararuggeri/jsontest/raw/a206417ed74403f2543fd3368963d1298aa04a88/whatsnext_avresp_platform.zip",
+                    "archiveFileName":"whatsnext_avresp_platform.zip",
+                    "checksum":"SHA-256:8EB2917BD2B4E7952E0C7C334E14855E2BE40928894F5EFD440E8BC3D806B3B7",
+                    "size":"86412993",
+                    "help":{ "online":"http://whatsnext.shop" },
+                    "boards":
+                    [
+			            {"name": "red"}
+                    ],
+                    "toolsDependencies":
+                    [
+                        {
+                            "packager": "arduino",
+                            "name": "avr-gcc",
+                            "version": "4.9.2-atmel3.5.4-arduino2"
+                        },
+				        {
+                            "packager": "esp8266", 
+                            "version": "1.20.0-26-gb404fb9-2", 
+                            "name": "xtensa-lx106-elf-gcc"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "avrdude",
+                            "version": "6.3.0-arduino9"
+                        },
+                        {
+                            "packager": "whatsnext", 
+                            "version": "1.0.0", 
+                            "name": "redtool"
+                        }, 
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.1.1"
+                        }
+                    ]
+                },
+                {
+                    "name":"what's next SAM Boards",
+                    "architecture":"sam",
+                    "version":"1.0.0",
+                    "category":"whatsnext",
+                    "url":"http://download.whatsnext.shop/platforms/whatsnext_sam_board.zip",
+                    "archiveFileName":"whatsnext_sam_board.zip",
+                    "checksum":"SHA-256:809B14D379BE3148CD0F73676C7E12E45718E41087558AC460A5F45B0AB90D31",
+                    "size":"41696199",
+                    "help":{ "online":"http://whatsnext.shop" },
+                    "boards":
+                    [
+                        {"name": "orange"}
+                    ],
+                    "toolsDependencies":
+                    [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "4.8.3-2014q1"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "bossac",
+                            "version": "1.6.1-arduino"
+                        }
+                    ]
+				},
+                {
+                    "name":"what's next SAMD (32-bits ARM Cortex-M0+) Boards",
+                    "architecture":"samd",
+                    "version":"1.0.0",
+                    "category":"whatsnext",
+                    "url":"http://download.whatsnext.shop/platforms/whatsnext_samd_platform.zip",
+                    "archiveFileName":"whatsnext_samd_platform.zip",
+                    "checksum":"SHA-256:BA21D5E6C46B9E77BF76D3F45A589F310D89217A3897A9AB1C4A08E8E8CCFD56",
+                    "size":"3987055",
+                    "help":{ "online":"http://whatsnext.shop" },
+                    "boards":
+                    [
+                        {"name": "violet"}
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "4.8.3-2014q1"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS",
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.1.0"
+                        }
+                    ]
+                }
+            ],
+            "tools":
+            [
+                {
+                    "name": "avr-gcc",
+                    "version": "4.9.2-atmel3.5.4-arduino2",
+                    "systems":
+                    [
+                        {
+                            "size": "27764772",
+                            "checksum": "SHA-256:ee36009e19bd238d1f6351cbc9aa5db69714761f67dec4c1d69d5d5d7758720c",
+                            "host": "arm-linux-gnueabihf",
+                            "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-arduino2-armhf-pc-linux-gnu.tar.bz2",
+                            "url": "http://downloads.arduino.cc/tools/avr-gcc-4.9.2-atmel3.5.4-arduino2-armhf-pc-linux-gnu.tar.bz2"
+                        },
+                        {
+                            "size": "28574644",
+                            "checksum": "SHA-256:67b3ed3555eacf0b4fc6f62240773b9f0220171fe4de26bb8d711547fc884730",
+                            "host": "i386-apple-darwin11",
+                            "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-arduino2-i386-apple-darwin11.tar.bz2",
+                            "url": "http://downloads.arduino.cc/tools/avr-gcc-4.9.2-atmel3.5.4-arduino2-i386-apple-darwin11.tar.bz2"
+                        },
+                        {
+                           "size": "44386446",
+                           "checksum": "SHA-256:6044551cd729d88ea6ffcccf10aad1934c5b164d61f4f5890b0e78524ffff853",
+                           "host": "i686-mingw32",
+                           "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-arduino2-i686-mingw32.zip",
+                           "url": "http://downloads.arduino.cc/tools/avr-gcc-4.9.2-atmel3.5.4-arduino2-i686-mingw32.zip"
+                        },
+                        {
+                            "size": "29723974",
+                            "checksum": "SHA-256:63a9d4cebbac06fd5fa8f48a2e2ba7d513837dcddc97f560129b4e466af901b5",
+                            "host": "i686-linux-gnu",
+                            "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-arduino2-i686-pc-linux-gnu.tar.bz2",
+                            "url": "http://downloads.arduino.cc/tools/avr-gcc-4.9.2-atmel3.5.4-arduino2-i686-pc-linux-gnu.tar.bz2"
+                        },
+                        {
+                            "size": "30374404",
+                            "checksum": "SHA-256:19480217f1524d78467b83cd742f503182bbcc76b5440093261f146828aa588c",
+                            "host": "x86_64-linux-gnu",
+                            "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-arduino2-x86_64-pc-linux-gnu.tar.bz2",
+                            "url": "http://downloads.arduino.cc/tools/avr-gcc-4.9.2-atmel3.5.4-arduino2-x86_64-pc-linux-gnu.tar.bz2"
+                        }
+                    ]
+                },
+                {
+                    "name": "arm-none-eabi-gcc",
+                    "version": "4.8.3-2014q1",
+                    "systems": [
+                    {
+                        "host": "arm-linux-gnueabihf",
+                        "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-arm.tar.bz2",
+                        "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-arm.tar.bz2",
+                        "checksum": "SHA-256:ebe96b34c4f434667cab0187b881ed585e7c7eb990fe6b69be3c81ec7e11e845",
+                        "size": "44423906"
+                    },
+                    {
+                        "host": "i686-mingw32",
+                        "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+                        "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+                        "checksum": "SHA-256:fd8c111c861144f932728e00abd3f7d1107e186eb9cd6083a54c7236ea78b7c2",
+                        "size": "84537449"
+                    },
+                    {
+                        "host": "x86_64-apple-darwin",
+                        "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+                        "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+                        "checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
+                        "size": "52518522"
+                    },
+                    {
+                        "host": "x86_64-pc-linux-gnu",
+                        "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+                        "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+                        "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+                        "size": "51395093"
+                    },
+                    {
+                        "host": "i686-pc-linux-gnu",
+                        "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+                        "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+                        "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+                        "size": "51029223"
+                    }
+                  ]
+                },
+				{
+                    "version": "1.20.0-26-gb404fb9-2", 
+                    "name": "xtensa-lx106-elf-gcc", 
+                    "systems": [
+                        {
+                            "url": "https://github.com/esp8266/Arduino/releases/download/2.3.0/win32-xtensa-lx106-elf-gb404fb9-2.tar.gz", 
+                            "checksum": "SHA-256:10476b9c11a7a90f40883413ddfb409f505b20692e316c4e597c4c175b4be09c", 
+                            "host": "i686-mingw32", 
+                            "archiveFileName": "win32-xtensa-lx106-elf-gb404fb9-2.tar.gz", 
+                            "size": "153527527"
+                        }, 
+                        {
+                            "url": "https://github.com/esp8266/Arduino/releases/download/2.3.0/osx-xtensa-lx106-elf-gb404fb9-2.tar.gz", 
+                            "checksum": "SHA-256:0cf150193997bd1355e0f49d3d49711730035257bc1aee1eaaad619e56b9e4e6", 
+                            "host": "x86_64-apple-darwin", 
+                            "archiveFileName": "osx-xtensa-lx106-elf-gb404fb9-2.tar.gz", 
+                            "size": "35385382"
+                        }, 
+                        {
+                            "url": "https://github.com/esp8266/Arduino/releases/download/2.3.0/osx-xtensa-lx106-elf-gb404fb9-2.tar.gz", 
+                            "checksum": "SHA-256:0cf150193997bd1355e0f49d3d49711730035257bc1aee1eaaad619e56b9e4e6", 
+                            "host": "i386-apple-darwin", 
+                            "archiveFileName": "osx-xtensa-lx106-elf-gb404fb9-2.tar.gz", 
+                            "size": "35385382"
+                        }, 
+                        {
+                           "url": "https://github.com/esp8266/Arduino/releases/download/2.3.0/linux64-xtensa-lx106-elf-gb404fb9.tgz", 
+                           "checksum": "SHA-256:46f057fbd8b320889a26167daf325038912096d09940b2a95489db92431473b7", 
+                           "host": "x86_64-pc-linux-gnu", 
+                           "archiveFileName": "linux64-xtensa-lx106-elf-gb404fb9.tar.gz", 
+                           "size": "30262903"
+                        }, 
+                        {
+                            "url": "https://github.com/esp8266/Arduino/releases/download/2.3.0/linux32-xtensa-lx106-elf.tar.gz", 
+                            "checksum": "SHA-256:b24817819f0078fb05895a640e806e0aca9aa96b47b80d2390ac8e2d9ddc955a", 
+                            "host": "i686-pc-linux-gnu", 
+                            "archiveFileName": "linux32-xtensa-lx106-elf.tar.gz", 
+                            "size": "32734156"
+                        }, 
+                        {
+                            "url": "https://github.com/esp8266/Arduino/releases/download/2.3.0/linuxarm-xtensa-lx106-elf-g46f160f-2.tar.gz", 
+                            "checksum": "SHA-256:f693946288f2ffa17288ef75ae16fa08573993f2b0a2a5e6bc35a68dc6087443", 
+                            "host": "arm-linux-gnueabihf", 
+                            "archiveFileName": "linuxarm-xtensa-lx106-elf-g46f160f-2.tar.gz", 
+                            "size": "34938475"
+                        }
+                    ]
+                },
+                {
+                    "name": "avrdude",
+                    "version": "6.3.0-arduino9",
+                    "systems":
+                    [
+                        {
+                            "size": "644550",
+                            "checksum": "SHA-256:25a6834ae48019fccf37024236a1f79fe21760414292a4f3fa058d937ceee1ce",
+                            "host": "arm-linux-gnueabihf",
+                            "archiveFileName": "avrdude-6.3.0-arduino9-armhf-pc-linux-gnu.tar.bz2",
+                            "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino9-armhf-pc-linux-gnu.tar.bz2"
+                        },
+                        {
+                            "size": "697309",
+                            "checksum": "SHA-256:bfa06bc042dff252d3a8eded98da159484e75b46d2697da4d9446dcd2aea8465",
+                            "host": "i386-apple-darwin11",
+                            "archiveFileName": "avrdude-6.3.0-arduino9-i386-apple-darwin11.tar.bz2",
+                            "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino9-i386-apple-darwin11.tar.bz2"
+                        },
+                        {
+                            "size": "711229",
+                            "checksum": "SHA-256:c8cccb84e2fe49ee837b24f0a60a99e9c371dae26e84c5b0b22b6b6aab2f1f6a",
+                            "host": "x86_64-linux-gnu",
+                            "archiveFileName": "avrdude-6.3.0-arduino9-x86_64-pc-linux-gnu.tar.bz2",
+                            "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino9-x86_64-pc-linux-gnu.tar.bz2"
+                        },
+                        {
+                            "size": "701590",
+                            "checksum": "SHA-256:4235a2d58e3c3224c603d6c5f0610507ed6c48ebf4051fdcce9f77a7646e218b",
+                            "host": "i686-linux-gnu",
+                            "archiveFileName": "avrdude-6.3.0-arduino9-i686-pc-linux-gnu.tar.bz2",
+                            "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino9-i686-pc-linux-gnu.tar.bz2"
+                        },
+                        {
+                            "size": "645974",
+                            "checksum": "SHA-256:f3c5cfa8d0b3b0caee81c5b35fb6acff89c342ef609bf4266734c6266a256d4f",
+                            "host": "i686-mingw32",
+                            "archiveFileName": "avrdude-6.3.0-arduino9-i686-w64-mingw32.zip",
+                            "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino9-i686-w64-mingw32.zip"
+                        }
+                    ]
+                },
+                {
+                    "version": "1.0.0", 
+                    "name": "redtool", 
+                    "systems":
+                    [
+                        {
+                            "url": "http://download.whatsnext.shop/tools/redtool-1.0.0-win.zip", 
+                            "checksum": "SHA-256:6E2DBF98D498F898AD2246FD2979F8B11BDEE9A0A36985C87BC687A941FE0F3B", 
+                            "host": "i686-mingw32", 
+                            "archiveFileName": "redtool-1.0.0-win.zip", 
+                            "size": "7318552"
+                        },
+                        {
+                            "url": "http://download.whatsnext.shop/tools/redtool-1.0.0-linux.tar.bz2", 
+                            "checksum": "SHA-256:2554B755352BF95B2B7A00AB63B363ACD4C0F3462F05053EA8E98C15B779B62C", 
+                            "host": "i686-linux-gnu", 
+                            "archiveFileName": "redtool-1.0.0-linux.tar.bz2", 
+                            "size": "8303975"
+                        },
+                        {
+                            "url": "http://download.whatsnext.shop/tools/redtool-1.0.0-linux.tar.bz2", 
+                            "checksum": "SHA-256:2554B755352BF95B2B7A00AB63B363ACD4C0F3462F05053EA8E98C15B779B62C", 
+                            "host": "x86_64-pc-linux-gnu",
+                            "archiveFileName": "redtool-1.0.0-linux.tar.bz2",
+                            "size": "8303975"
+                        },
+                        {
+                            "url": "http://download.whatsnext.shop/tools/redtool-1.0.0-osx.tar.bz2", 
+                            "checksum": "SHA-256:21A7D612DCF75D054733AD989913BC43C1BE79F0D10C257C9C86013BD122BF2B", 
+                            "host": "x86_64-apple-darwin",
+                            "archiveFileName": "redtool-1.0.0-osx.tar.bz2",
+                            "size": "8533926"
+                        },
+                        {
+                            "url": "http://download.whatsnext.shop/tools/redtool-1.0.0-osx.tar.bz2", 
+                            "checksum": "SHA-256:21A7D612DCF75D054733AD989913BC43C1BE79F0D10C257C9C86013BD122BF2B", 
+                            "host": "i386-apple-darwin",
+                            "archiveFileName": "redtool-1.0.0-osx.tar.bz2",
+                            "size": "8533926"
+                        }
+                    ]
+                }, 
+                {
+                    "name": "arduinoOTA",
+                    "version": "1.1.1",
+                    "systems":
+                    [
+                        {
+                            "size": "2045036",
+                            "checksum": "SHA-256:7ac91ef1d5b357c0ceb790be02ef54986db598ba5a42fffbd6c8ecbdd6a271ef",
+                            "host": "i686-linux-gnu",
+                            "archiveFileName": "arduinoOTA-1.1.1-linux_386.tar.bz2",
+                            "url": "http://downloads.arduino.cc/tools/arduinoOTA-1.1.1-linux_386.tar.bz2"
+                        },
+                        {
+                            "size": "2178288",
+                            "checksum": "SHA-256:eb5ad0a457dd7f610f7f9b85454399c36755673d61a16f9d07cdfcbbb32ec277",
+                            "host": "x86_64-linux-gnu",
+                            "archiveFileName": "arduinoOTA-1.1.1-linux_amd64.tar.bz2",
+                            "url": "http://downloads.arduino.cc/tools/arduinoOTA-1.1.1-linux_amd64.tar.bz2"
+                        },
+                        {
+                            "size": "1962115",
+                            "checksum": "SHA-256:e4880d83df3d3f6f4b7b7bcde161e80a0556877468803a3c6066ee4ad18a374c",
+                            "host": "arm-linux-gnueabihf",
+                            "archiveFileName": "arduinoOTA-1.1.1-linux_arm.tar.bz2",
+                            "url": "http://downloads.arduino.cc/tools/arduinoOTA-1.1.1-linux_arm.tar.bz2"
+                        },
+                        {
+                            "size": "2181376",
+                            "checksum": "SHA-256:a1ce7cf578982f3af5e4fab6b5839e44830d7a41cb093faba5c4b45952a6fa55",
+                            "host": "i386-apple-darwin11",
+                            "archiveFileName": "arduinoOTA-1.1.1-darwin_amd64.tar.bz2",
+                            "url": "http://downloads.arduino.cc/tools/arduinoOTA-1.1.1-darwin_amd64.tar.bz2"
+                        },
+                        {
+                            "size": "2248431",
+                            "checksum": "SHA-256:b2d3610c77f969a68cd75b6ea66bf63ec10c263937009d99147fbcd975c90006",
+                            "host": "i686-mingw32",
+                            "archiveFileName": "arduinoOTA-1.1.1-windows_386.zip",
+                            "url": "http://downloads.arduino.cc/tools/arduinoOTA-1.1.1-windows_386.zip"
+                        }
+                    ]
+                },
+                {
+                    "name": "CMSIS",
+                    "version": "4.5.0",
+                    "systems":
+                    [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "http://downloads.arduino.cc/CMSIS-4.5.0.tar.bz2",
+                            "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+                            "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+                            "size": "31525196"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "http://downloads.arduino.cc/CMSIS-4.5.0.tar.bz2",
+                            "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+                            "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+                            "size": "31525196"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "http://downloads.arduino.cc/CMSIS-4.5.0.tar.bz2",
+                            "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+                            "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+                            "size": "31525196"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "http://downloads.arduino.cc/CMSIS-4.5.0.tar.bz2",
+                            "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+                            "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+                            "size": "31525196"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "http://downloads.arduino.cc/CMSIS-4.5.0.tar.bz2",
+                            "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+                            "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+                            "size": "31525196"
+                        },
+                        {
+                            "host": "all",
+                            "url": "http://downloads.arduino.cc/CMSIS-4.5.0.tar.bz2",
+                            "archiveFileName": "CMSIS-4.5.0.tar.bz2",
+                            "checksum": "SHA-256:cd8f7eae9fc7c8b4a1b5e40b89b9666d33953b47d3d2eb81844f5af729fa224d",
+                            "size": "31525196"
+                        }
+                    ]
+                },
+                {
+                    "name": "CMSIS-Atmel",
+                    "version": "1.1.0",
+                    "systems":
+                    [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.1.0.tar.bz2",
+                            "archiveFileName": "CMSIS-Atmel-1.1.0.tar.bz2",
+                            "checksum": "SHA-256:3ea5ec0451f42dc2b97f869b027a9cf696241cfc927cfc48d74ccc7b396ba41b",
+                            "size": "1659108"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.1.0.tar.bz2",
+                            "archiveFileName": "CMSIS-Atmel-1.1.0.tar.bz2",
+                            "checksum": "SHA-256:3ea5ec0451f42dc2b97f869b027a9cf696241cfc927cfc48d74ccc7b396ba41b",
+                            "size": "1659108"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.1.0.tar.bz2",
+                            "archiveFileName": "CMSIS-Atmel-1.1.0.tar.bz2",
+                            "checksum": "SHA-256:3ea5ec0451f42dc2b97f869b027a9cf696241cfc927cfc48d74ccc7b396ba41b",
+                            "size": "1659108"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.1.0.tar.bz2",
+                            "archiveFileName": "CMSIS-Atmel-1.1.0.tar.bz2",
+                            "checksum": "SHA-256:3ea5ec0451f42dc2b97f869b027a9cf696241cfc927cfc48d74ccc7b396ba41b",
+                            "size": "1659108"
+                        },
+                        {
+                            "host": "arm-linux-gnueabihf",
+                            "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.1.0.tar.bz2",
+                            "archiveFileName": "CMSIS-Atmel-1.1.0.tar.bz2",
+                            "checksum": "SHA-256:3ea5ec0451f42dc2b97f869b027a9cf696241cfc927cfc48d74ccc7b396ba41b",
+                            "size": "1659108"
+                        },
+                        {
+                            "host": "all",
+                            "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.1.0.tar.bz2",
+                            "archiveFileName": "CMSIS-Atmel-1.1.0.tar.bz2",
+                            "checksum": "SHA-256:3ea5ec0451f42dc2b97f869b027a9cf696241cfc927cfc48d74ccc7b396ba41b",
+                            "size": "1659108"
+                        }
+                    ]
+                },
+                {
+                    "name": "bossac",
+                    "version": "1.6.1-arduino",
+                    "systems": [
+                    {
+                        "host": "arm-linux-gnueabihf",
+                        "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-arm-linux-gnueabihf.tar.bz2",
+                        "archiveFileName": "bossac-1.6.1-arduino-arm-linux-gnueabihf.tar.bz2",
+                        "checksum": "SHA-256:8c4e63db982178919c824e7a35580dffc95c3426afa7285de3eb583982d4d391",
+                        "size": "201341"
+                    },
+                    {
+                        "host": "i686-mingw32",
+                        "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-mingw32.tar.gz",
+                        "archiveFileName": "bossac-1.6.1-arduino-mingw32.tar.gz",
+                        "checksum": "SHA-256:d59f43e2e83a337d04c4ae88b195a4ee175b8d87fff4c43144d23412a4a9513b",
+                        "size": "222918"
+                    },
+                    {
+                        "host": "x86_64-apple-darwin",
+                        "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-i386-apple-darwin14.5.0.tar.gz",
+                        "archiveFileName": "bossac-1.6.1-arduino-i386-apple-darwin14.5.0.tar.gz",
+                        "checksum": "SHA-256:2f80ef569a3fb19da60ab3489e49d8fe7d4699876acf30ff4938c632230a09aa",
+                        "size": "64587"
+                    },
+                    {
+                        "host": "x86_64-pc-linux-gnu",
+                        "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-x86_64-linux-gnu.tar.gz",
+                        "archiveFileName": "bossac-1.6.1-arduino-x86_64-linux-gnu.tar.gz",
+                        "checksum": "SHA-256:b78afc66c00ccfdd69a08bd3959c260a0c64ccce78a71d5a1135ae4437ff40db",
+                        "size": "30869"
+                    },
+                    {
+                        "host": "i686-pc-linux-gnu",
+                        "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-i486-linux-gnu.tar.gz",
+                        "archiveFileName": "bossac-1.6.1-arduino-i486-linux-gnu.tar.gz",
+                        "checksum": "SHA-256:1e211347569d75193b337296a10dd25b0ce04419e3d7dc644355178b6b514f92",
+                        "size": "30320"
+                    }
+                  ]
+                }
+            ]
+        }
+    ]
+}
