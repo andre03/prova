@@ -194,10 +194,8 @@
 								}
 							]
 						}
-					]
+					]	
                 },
-				
-				
 				{
                     "name":"what's next AVR_ESP Boards",
                     "architecture":"avr_esp",
