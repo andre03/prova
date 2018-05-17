@@ -142,14 +142,6 @@
                     ]
                 },
 				{
-					"name":"whatsnext",
-					"maintainer":"What's next?",
-					"websiteURL":"http://whatsnext.shop",
-					"email":"rd@whatsnext.shop",
-					"help":{ "online":"http://whatsnext.shop" },
-					"platforms": 
-					[
-						{
 							"name":"what's next AVR Boards",
 							"architecture":"avr",
 							"version":"1.0.3",
@@ -192,9 +184,7 @@
 									"name": "arduinoOTA",
 									"version": "1.1.1"
 								}
-							]
-						}
-					]	
+							]		
                 },
 				{
                     "name":"what's next AVR_ESP Boards",
