@@ -97,7 +97,7 @@
                         }
                     ]
                 },
-				{
+								{
                     "name":"what's next AVR Boards",
                     "architecture":"avr",
                     "version":"1.0.2",
@@ -142,48 +142,50 @@
                     ]
                 },
 				{
-                    "name":"what's next AVR_ESP Boards",
-                    "architecture":"avr_esp",
-                    "version":"1.0.0",
-                    "category":"whatsnext",
-                    "url":"https://bitbucket.org/chiararuggeri/jsontest/raw/a206417ed74403f2543fd3368963d1298aa04a88/whatsnext_avresp_platform.zip",
-                    "archiveFileName":"whatsnext_avresp_platform.zip",
-                    "checksum":"SHA-256:8EB2917BD2B4E7952E0C7C334E14855E2BE40928894F5EFD440E8BC3D806B3B7",
-                    "size":"86412993",
-                    "help":{ "online":"http://whatsnext.shop" },
-                    "boards":
-                    [
-			            {"name": "red"}
-                    ],
-                    "toolsDependencies":
-                    [
-                        {
-                            "packager": "arduino",
-                            "name": "avr-gcc",
-                            "version": "4.9.2-atmel3.5.4-arduino2"
-                        },
-				        {
-                            "packager": "esp8266", 
-                            "version": "1.20.0-26-gb404fb9-2", 
-                            "name": "xtensa-lx106-elf-gcc"
-                        },
-                        {
-                            "packager": "arduino",
-                            "name": "avrdude",
-                            "version": "6.3.0-arduino9"
-                        },
-                        {
-                            "packager": "whatsnext", 
-                            "version": "1.0.0", 
-                            "name": "redtool"
-                        }, 
-                        {
-                            "packager": "arduino",
-                            "name": "arduinoOTA",
-                            "version": "1.1.1"
-                        }
-                    ]
-                },
+							"name":"what's next AVR Boards",
+							"architecture":"avr",
+							"version":"1.0.3",
+							"category":"whatsnext",
+							"url":"https://github.com/andre03/prova/blob/master/prova_1.0.3.zip?raw=true",
+							"archiveFileName":"whatsnext_avr_platform.zip",
+							"checksum":"SHA-256:283F481468FCF0ABB6309382432782F103C3BCFCE2BDF01194CCEFDB981B4572",
+							"size":"6804120",
+							"help":{ "online":"http://whatsnext.shop" },
+							"boards":
+							[
+								{"name": "turquoise"},
+								{"name": "yellow"},
+								{"name": "purple"},
+								{"name": "green"},
+								{"name": "pink"},
+								{"name": "blue"},
+								{"name": "red"},
+								{"name": "pippo"}
+							],
+							"toolsDependencies":
+							[
+								{
+									"packager": "arduino",
+									"name": "avr-gcc",
+									"version": "4.9.2-atmel3.5.4-arduino2"
+								},
+								{
+									"packager": "arduino",
+									"name": "avrdude",
+									"version": "6.3.0-arduino9"
+								},
+								{
+									"packager": "whatsnext", 
+									"version": "1.0.0", 
+									"name": "redtool"
+								}, 
+								{
+									"packager": "arduino",
+									"name": "arduinoOTA",
+									"version": "1.1.1"
+								}
+							]		
+                },				
                 {
                     "name":"what's next SAM Boards",
                     "architecture":"sam",
@@ -329,54 +331,6 @@
                         "size": "51029223"
                     }
                   ]
-                },
-				{
-                    "version": "1.20.0-26-gb404fb9-2", 
-                    "name": "xtensa-lx106-elf-gcc", 
-                    "systems": [
-                        {
-                            "url": "https://github.com/esp8266/Arduino/releases/download/2.3.0/win32-xtensa-lx106-elf-gb404fb9-2.tar.gz", 
-                            "checksum": "SHA-256:10476b9c11a7a90f40883413ddfb409f505b20692e316c4e597c4c175b4be09c", 
-                            "host": "i686-mingw32", 
-                            "archiveFileName": "win32-xtensa-lx106-elf-gb404fb9-2.tar.gz", 
-                            "size": "153527527"
-                        }, 
-                        {
-                            "url": "https://github.com/esp8266/Arduino/releases/download/2.3.0/osx-xtensa-lx106-elf-gb404fb9-2.tar.gz", 
-                            "checksum": "SHA-256:0cf150193997bd1355e0f49d3d49711730035257bc1aee1eaaad619e56b9e4e6", 
-                            "host": "x86_64-apple-darwin", 
-                            "archiveFileName": "osx-xtensa-lx106-elf-gb404fb9-2.tar.gz", 
-                            "size": "35385382"
-                        }, 
-                        {
-                            "url": "https://github.com/esp8266/Arduino/releases/download/2.3.0/osx-xtensa-lx106-elf-gb404fb9-2.tar.gz", 
-                            "checksum": "SHA-256:0cf150193997bd1355e0f49d3d49711730035257bc1aee1eaaad619e56b9e4e6", 
-                            "host": "i386-apple-darwin", 
-                            "archiveFileName": "osx-xtensa-lx106-elf-gb404fb9-2.tar.gz", 
-                            "size": "35385382"
-                        }, 
-                        {
-                           "url": "https://github.com/esp8266/Arduino/releases/download/2.3.0/linux64-xtensa-lx106-elf-gb404fb9.tgz", 
-                           "checksum": "SHA-256:46f057fbd8b320889a26167daf325038912096d09940b2a95489db92431473b7", 
-                           "host": "x86_64-pc-linux-gnu", 
-                           "archiveFileName": "linux64-xtensa-lx106-elf-gb404fb9.tar.gz", 
-                           "size": "30262903"
-                        }, 
-                        {
-                            "url": "https://github.com/esp8266/Arduino/releases/download/2.3.0/linux32-xtensa-lx106-elf.tar.gz", 
-                            "checksum": "SHA-256:b24817819f0078fb05895a640e806e0aca9aa96b47b80d2390ac8e2d9ddc955a", 
-                            "host": "i686-pc-linux-gnu", 
-                            "archiveFileName": "linux32-xtensa-lx106-elf.tar.gz", 
-                            "size": "32734156"
-                        }, 
-                        {
-                            "url": "https://github.com/esp8266/Arduino/releases/download/2.3.0/linuxarm-xtensa-lx106-elf-g46f160f-2.tar.gz", 
-                            "checksum": "SHA-256:f693946288f2ffa17288ef75ae16fa08573993f2b0a2a5e6bc35a68dc6087443", 
-                            "host": "arm-linux-gnueabihf", 
-                            "archiveFileName": "linuxarm-xtensa-lx106-elf-g46f160f-2.tar.gz", 
-                            "size": "34938475"
-                        }
-                    ]
                 },
                 {
                     "name": "avrdude",
